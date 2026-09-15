@@ -1,0 +1,21 @@
+{
+    "_comment": "This is the primary config. Values not present here fall back to dataclass defaults in src/kg/config.py.",
+    "api_base": "http://localhost:8081/v1",
+    "model": "qwen3-coder-next-Q8_0",
+    "api_key": "any",
+    "temperature": 0.0,
+    "max_tokens": 1024,
+    "max_rounds": 20,
+    "max_tool_calls": 50,
+    "repair_max_rounds": 20,
+    "repair_max_tool_calls": 50,
+    "meta_schema_dir": "swe_bench_kg",
+    "graph_cache_dir": "outputs/kg_graphs",
+    "repo_cache_dir": "outputs/kg_repos",
+    "max_context_tokens": 128000,
+    "dataset_path": "data/swe-bench_lite",
+    "output_dir": "outputs",
+    "prompt_style": "style-3",
+    "embedding_api_base": "http://localhost:8081/v1",
+    "embedding_cache_dir": "outputs/kg_embed_cache"
+}

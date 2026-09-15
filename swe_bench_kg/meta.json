@@ -1,0 +1,1447 @@
+{
+  "nodes": [
+    {
+      "id": "Directory",
+      "label": "Directory",
+      "x": 507.43528438046735,
+      "y": 37.01720028275528
+    },
+    {
+      "id": "File",
+      "label": "File",
+      "x": 967.1222925016746,
+      "y": 426.68825208286796
+    },
+    {
+      "id": "Class",
+      "label": "Class",
+      "x": 423.28624305902537,
+      "y": 690.6565857757199
+    },
+    {
+      "id": "Function",
+      "label": "Function",
+      "x": 1352.533020670983,
+      "y": 924.8864675241773
+    },
+    {
+      "id": "Method",
+      "label": "Method",
+      "x": 689.7546501857832,
+      "y": 727.0703752702146
+    },
+    {
+      "id": "Variable",
+      "label": "Variable",
+      "x": 1097.1797199079247,
+      "y": 251.20064580677916
+    },
+    {
+      "id": "Decorator",
+      "label": "Decorator",
+      "x": 248.03235768410974,
+      "y": 219.2245869342771
+    },
+    {
+      "id": "Import",
+      "label": "Import",
+      "x": 1927.1979605043546,
+      "y": 889.0367429013286
+    },
+    {
+      "id": "Dependency",
+      "label": "Dependency",
+      "x": 1913.8260949393193,
+      "y": 615.1360648454643
+    },
+    {
+      "id": "Exception",
+      "label": "Exception",
+      "x": 1688.292199395582,
+      "y": 165.2058689224366
+    },
+    {
+      "id": "TypeAnnotation",
+      "label": "TypeAnnotation",
+      "x": 1421.0534333101718,
+      "y": 200.40063226375472
+    },
+    {
+      "id": "CONTAINS",
+      "label": "CONTAINS",
+      "x": 470.3034977651916,
+      "y": 411.23399953842033
+    },
+    {
+      "id": "IMPORTS",
+      "label": "IMPORTS",
+      "x": 1637.3074315974027,
+      "y": 776.7670414238206
+    },
+    {
+      "id": "DEPENDS_ON",
+      "label": "DEPENDS_ON",
+      "x": 1384.7252388486802,
+      "y": 521.2908444145287
+    },
+    {
+      "id": "DECORATES",
+      "label": "DECORATES",
+      "x": -126.04118007139897,
+      "y": 520.4871027848512
+    },
+    {
+      "id": "CALLS",
+      "label": "CALLS",
+      "x": 1033.2956231096496,
+      "y": 702.9246430505648
+    },
+    {
+      "id": "INHERITS",
+      "label": "INHERITS",
+      "x": -179.45336208069904,
+      "y": 756.4887277378865
+    },
+    {
+      "id": "RAISES",
+      "label": "RAISES",
+      "x": 1577.6138452705836,
+      "y": 416.94875390160405
+    },
+    {
+      "id": "CATCHES",
+      "label": "CATCHES",
+      "x": 1871.7625045310906,
+      "y": 379.8328647778362
+    },
+    {
+      "id": "HAS_TYPE",
+      "label": "HAS_TYPE",
+      "x": 1334.7345502927174,
+      "y": 1.7211909930779399
+    },
+    {
+      "id": "relative_path",
+      "label": "relative_path",
+      "x": 879.6448159886965,
+      "y": -18.762030317109065
+    },
+    {
+      "id": "name",
+      "label": "name",
+      "x": 1088.8759229396348,
+      "y": 583.2430858534177
+    },
+    {
+      "id": "line_start",
+      "label": "line_start",
+      "x": 113.47688032602065,
+      "y": 884.9054915531323
+    },
+    {
+      "id": "line_end",
+      "label": "line_end",
+      "x": 418.4164325299794,
+      "y": 1268.7964193094065
+    },
+    {
+      "id": "source_code",
+      "label": "source_code",
+      "x": 924.1339439778841,
+      "y": 1360.3621992473445
+    },
+    {
+      "id": "line_count",
+      "label": "line_count",
+      "x": 667.7277861365242,
+      "y": 151.4916973944605
+    },
+    {
+      "id": "return_type",
+      "label": "return_type",
+      "x": 1656.2741872818729,
+      "y": 1349.161468266531
+    },
+    {
+      "id": "is_async",
+      "label": "is_async",
+      "x": 1005.6417090933327,
+      "y": 821.4161294972789
+    },
+    {
+      "id": "is_staticmethod",
+      "label": "is_staticmethod",
+      "x": 279.1431105808153,
+      "y": 1112.3549604063403
+    },
+    {
+      "id": "is_classmethod",
+      "label": "is_classmethod",
+      "x": 28.762273651458997,
+      "y": 1112.3198924135888
+    },
+    {
+      "id": "value",
+      "label": "value",
+      "x": 1036.0909985802148,
+      "y": 47.61201276003857
+    },
+    {
+      "id": "module_path",
+      "label": "module_path",
+      "x": 2251.4228432559744,
+      "y": 1044.1590658748041
+    },
+    {
+      "id": "imported_name",
+      "label": "imported_name",
+      "x": 2174.245716983749,
+      "y": 740.825718914675
+    },
+    {
+      "id": "version",
+      "label": "version",
+      "x": 2102.3910542289204,
+      "y": 444.9485530110932
+    },
+    {
+      "id": "line_number",
+      "label": "line_number",
+      "x": 1886.790006169756,
+      "y": 1147.822731023397
+    },
+    {
+      "id": "docstring",
+      "label": "docstring",
+      "x": 621.0514344435941,
+      "y": 1438.0881638018998
+    },
+    {
+      "id": "complexity",
+      "label": "complexity",
+      "x": 1263.893617389047,
+      "y": 1292.6183655118382
+    }
+  ],
+  "edges": [
+    {
+      "source": "CONTAINS",
+      "target": "Directory",
+      "label": "HAS_SOURCE Directory→File",
+      "id": "CONTAINS-source-Directory-0"
+    },
+    {
+      "source": "CONTAINS",
+      "target": "File",
+      "label": "HAS_TARGET Directory→File",
+      "id": "CONTAINS-target-File-0"
+    },
+    {
+      "source": "CONTAINS",
+      "target": "File",
+      "label": "HAS_SOURCE File→Class",
+      "id": "CONTAINS-source-File-1"
+    },
+    {
+      "source": "CONTAINS",
+      "target": "Class",
+      "label": "HAS_TARGET File→Class",
+      "id": "CONTAINS-target-Class-1"
+    },
+    {
+      "source": "CONTAINS",
+      "target": "Class",
+      "label": "HAS_SOURCE Class→Method",
+      "id": "CONTAINS-source-Class-2"
+    },
+    {
+      "source": "CONTAINS",
+      "target": "Method",
+      "label": "HAS_TARGET Class→Method",
+      "id": "CONTAINS-target-Method-2"
+    },
+    {
+      "source": "CONTAINS",
+      "target": "Method",
+      "label": "HAS_SOURCE Method→Variable",
+      "id": "CONTAINS-source-Method-3"
+    },
+    {
+      "source": "CONTAINS",
+      "target": "Variable",
+      "label": "HAS_TARGET Method→Variable",
+      "id": "CONTAINS-target-Variable-3"
+    },
+    {
+      "source": "IMPORTS",
+      "target": "Function",
+      "label": "HAS_SOURCE Function→Function",
+      "id": "IMPORTS-source-Function-0"
+    },
+    {
+      "source": "IMPORTS",
+      "target": "Function",
+      "label": "HAS_TARGET Function→Function",
+      "id": "IMPORTS-target-Function-0"
+    },
+    {
+      "source": "IMPORTS",
+      "target": "File",
+      "label": "HAS_SOURCE File→Dependency",
+      "id": "IMPORTS-source-File-1"
+    },
+    {
+      "source": "IMPORTS",
+      "target": "Dependency",
+      "label": "HAS_TARGET File→Dependency",
+      "id": "IMPORTS-target-Dependency-1"
+    },
+    {
+      "source": "DEPENDS_ON",
+      "target": "File",
+      "label": "HAS_SOURCE File→Dependency",
+      "id": "DEPENDS_ON-source-File-0"
+    },
+    {
+      "source": "DEPENDS_ON",
+      "target": "Dependency",
+      "label": "HAS_TARGET File→Dependency",
+      "id": "DEPENDS_ON-target-Dependency-0"
+    },
+    {
+      "source": "DECORATES",
+      "target": "Decorator",
+      "label": "HAS_SOURCE Decorator→Method",
+      "id": "DECORATES-source-Decorator-0"
+    },
+    {
+      "source": "DECORATES",
+      "target": "Method",
+      "label": "HAS_TARGET Decorator→Method",
+      "id": "DECORATES-target-Method-0"
+    },
+    {
+      "source": "DECORATES",
+      "target": "Decorator",
+      "label": "HAS_SOURCE Decorator→Class",
+      "id": "DECORATES-source-Decorator-1"
+    },
+    {
+      "source": "DECORATES",
+      "target": "Class",
+      "label": "HAS_TARGET Decorator→Class",
+      "id": "DECORATES-target-Class-1"
+    },
+    {
+      "source": "CALLS",
+      "target": "Function",
+      "label": "HAS_SOURCE Function→Function",
+      "id": "CALLS-source-Function-0"
+    },
+    {
+      "source": "CALLS",
+      "target": "Function",
+      "label": "HAS_TARGET Function→Function",
+      "id": "CALLS-target-Function-0"
+    },
+    {
+      "source": "CALLS",
+      "target": "Method",
+      "label": "HAS_SOURCE Method→Method",
+      "id": "CALLS-source-Method-1"
+    },
+    {
+      "source": "CALLS",
+      "target": "Method",
+      "label": "HAS_TARGET Method→Method",
+      "id": "CALLS-target-Method-1"
+    },
+    {
+      "source": "INHERITS",
+      "target": "Class",
+      "label": "HAS_SOURCE Class→Class",
+      "id": "INHERITS-source-Class-0"
+    },
+    {
+      "source": "INHERITS",
+      "target": "Class",
+      "label": "HAS_TARGET Class→Class",
+      "id": "INHERITS-target-Class-0"
+    },
+    {
+      "source": "RAISES",
+      "target": "Function",
+      "label": "HAS_SOURCE Function→Exception",
+      "id": "RAISES-source-Function-0"
+    },
+    {
+      "source": "RAISES",
+      "target": "Exception",
+      "label": "HAS_TARGET Function→Exception",
+      "id": "RAISES-target-Exception-0"
+    },
+    {
+      "source": "CATCHES",
+      "target": "Function",
+      "label": "HAS_SOURCE Function→Exception",
+      "id": "CATCHES-source-Function-0"
+    },
+    {
+      "source": "CATCHES",
+      "target": "Exception",
+      "label": "HAS_TARGET Function→Exception",
+      "id": "CATCHES-target-Exception-0"
+    },
+    {
+      "source": "HAS_TYPE",
+      "target": "Variable",
+      "label": "HAS_SOURCE Variable→TypeAnnotation",
+      "id": "HAS_TYPE-source-Variable-0"
+    },
+    {
+      "source": "HAS_TYPE",
+      "target": "TypeAnnotation",
+      "label": "HAS_TARGET Variable→TypeAnnotation",
+      "id": "HAS_TYPE-target-TypeAnnotation-0"
+    },
+    {
+      "source": "Directory",
+      "target": "relative_path",
+      "label": "HAS_PROPERTY",
+      "id": "Directory-HAS_PROPERTY-relative_path"
+    },
+    {
+      "source": "File",
+      "target": "relative_path",
+      "label": "HAS_PROPERTY",
+      "id": "File-HAS_PROPERTY-relative_path"
+    },
+    {
+      "source": "File",
+      "target": "line_count",
+      "label": "HAS_PROPERTY",
+      "id": "File-HAS_PROPERTY-line_count"
+    },
+    {
+      "source": "Class",
+      "target": "name",
+      "label": "HAS_PROPERTY",
+      "id": "Class-HAS_PROPERTY-name"
+    },
+    {
+      "source": "Class",
+      "target": "line_start",
+      "label": "HAS_PROPERTY",
+      "id": "Class-HAS_PROPERTY-line_start"
+    },
+    {
+      "source": "Class",
+      "target": "line_end",
+      "label": "HAS_PROPERTY",
+      "id": "Class-HAS_PROPERTY-line_end"
+    },
+    {
+      "source": "Class",
+      "target": "source_code",
+      "label": "HAS_PROPERTY",
+      "id": "Class-HAS_PROPERTY-source_code"
+    },
+    {
+      "source": "Class",
+      "target": "docstring",
+      "label": "HAS_PROPERTY",
+      "id": "Class-HAS_PROPERTY-docstring"
+    },
+    {
+      "source": "Class",
+      "target": "complexity",
+      "label": "HAS_PROPERTY",
+      "id": "Class-HAS_PROPERTY-complexity"
+    },
+    {
+      "source": "Function",
+      "target": "name",
+      "label": "HAS_PROPERTY",
+      "id": "Function-HAS_PROPERTY-name"
+    },
+    {
+      "source": "Function",
+      "target": "line_start",
+      "label": "HAS_PROPERTY",
+      "id": "Function-HAS_PROPERTY-line_start"
+    },
+    {
+      "source": "Function",
+      "target": "line_end",
+      "label": "HAS_PROPERTY",
+      "id": "Function-HAS_PROPERTY-line_end"
+    },
+    {
+      "source": "Function",
+      "target": "source_code",
+      "label": "HAS_PROPERTY",
+      "id": "Function-HAS_PROPERTY-source_code"
+    },
+    {
+      "source": "Function",
+      "target": "return_type",
+      "label": "HAS_PROPERTY",
+      "id": "Function-HAS_PROPERTY-return_type"
+    },
+    {
+      "source": "Function",
+      "target": "is_async",
+      "label": "HAS_PROPERTY",
+      "id": "Function-HAS_PROPERTY-is_async"
+    },
+    {
+      "source": "Function",
+      "target": "docstring",
+      "label": "HAS_PROPERTY",
+      "id": "Function-HAS_PROPERTY-docstring"
+    },
+    {
+      "source": "Function",
+      "target": "complexity",
+      "label": "HAS_PROPERTY",
+      "id": "Function-HAS_PROPERTY-complexity"
+    },
+    {
+      "source": "Method",
+      "target": "name",
+      "label": "HAS_PROPERTY",
+      "id": "Method-HAS_PROPERTY-name"
+    },
+    {
+      "source": "Method",
+      "target": "line_start",
+      "label": "HAS_PROPERTY",
+      "id": "Method-HAS_PROPERTY-line_start"
+    },
+    {
+      "source": "Method",
+      "target": "line_end",
+      "label": "HAS_PROPERTY",
+      "id": "Method-HAS_PROPERTY-line_end"
+    },
+    {
+      "source": "Method",
+      "target": "source_code",
+      "label": "HAS_PROPERTY",
+      "id": "Method-HAS_PROPERTY-source_code"
+    },
+    {
+      "source": "Method",
+      "target": "return_type",
+      "label": "HAS_PROPERTY",
+      "id": "Method-HAS_PROPERTY-return_type"
+    },
+    {
+      "source": "Method",
+      "target": "is_async",
+      "label": "HAS_PROPERTY",
+      "id": "Method-HAS_PROPERTY-is_async"
+    },
+    {
+      "source": "Method",
+      "target": "is_staticmethod",
+      "label": "HAS_PROPERTY",
+      "id": "Method-HAS_PROPERTY-is_staticmethod"
+    },
+    {
+      "source": "Method",
+      "target": "is_classmethod",
+      "label": "HAS_PROPERTY",
+      "id": "Method-HAS_PROPERTY-is_classmethod"
+    },
+    {
+      "source": "Method",
+      "target": "docstring",
+      "label": "HAS_PROPERTY",
+      "id": "Method-HAS_PROPERTY-docstring"
+    },
+    {
+      "source": "Method",
+      "target": "complexity",
+      "label": "HAS_PROPERTY",
+      "id": "Method-HAS_PROPERTY-complexity"
+    },
+    {
+      "source": "Variable",
+      "target": "name",
+      "label": "HAS_PROPERTY",
+      "id": "Variable-HAS_PROPERTY-name"
+    },
+    {
+      "source": "Variable",
+      "target": "line_start",
+      "label": "HAS_PROPERTY",
+      "id": "Variable-HAS_PROPERTY-line_start"
+    },
+    {
+      "source": "Variable",
+      "target": "value",
+      "label": "HAS_PROPERTY",
+      "id": "Variable-HAS_PROPERTY-value"
+    },
+    {
+      "source": "Decorator",
+      "target": "name",
+      "label": "HAS_PROPERTY",
+      "id": "Decorator-HAS_PROPERTY-name"
+    },
+    {
+      "source": "Decorator",
+      "target": "line_start",
+      "label": "HAS_PROPERTY",
+      "id": "Decorator-HAS_PROPERTY-line_start"
+    },
+    {
+      "source": "Import",
+      "target": "module_path",
+      "label": "HAS_PROPERTY",
+      "id": "Import-HAS_PROPERTY-module_path"
+    },
+    {
+      "source": "Import",
+      "target": "imported_name",
+      "label": "HAS_PROPERTY",
+      "id": "Import-HAS_PROPERTY-imported_name"
+    },
+    {
+      "source": "Dependency",
+      "target": "name",
+      "label": "HAS_PROPERTY",
+      "id": "Dependency-HAS_PROPERTY-name"
+    },
+    {
+      "source": "Dependency",
+      "target": "version",
+      "label": "HAS_PROPERTY",
+      "id": "Dependency-HAS_PROPERTY-version"
+    },
+    {
+      "source": "Exception",
+      "target": "name",
+      "label": "HAS_PROPERTY",
+      "id": "Exception-HAS_PROPERTY-name"
+    },
+    {
+      "source": "TypeAnnotation",
+      "target": "name",
+      "label": "HAS_PROPERTY",
+      "id": "TypeAnnotation-HAS_PROPERTY-name"
+    },
+    {
+      "source": "IMPORTS",
+      "target": "Import",
+      "label": "HAS_TARGET File→Import",
+      "id": "IMPORTS-target-Import-2"
+    },
+    {
+      "source": "Import",
+      "target": "line_number",
+      "label": "HAS_PROPERTY",
+      "id": "Import-HAS_PROPERTY-line_number"
+    },
+    {
+      "source": "CONTAINS",
+      "target": "File",
+      "label": "HAS_SOURCE File→Function",
+      "id": "CONTAINS-source-File-4"
+    },
+    {
+      "source": "CONTAINS",
+      "target": "Function",
+      "label": "HAS_TARGET File→Function",
+      "id": "CONTAINS-target-Function-4"
+    },
+    {
+      "source": "CONTAINS",
+      "target": "File",
+      "label": "HAS_SOURCE File→Import",
+      "id": "CONTAINS-source-File-5"
+    },
+    {
+      "source": "CONTAINS",
+      "target": "Import",
+      "label": "HAS_TARGET File→Import",
+      "id": "CONTAINS-target-Import-5"
+    },
+    {
+      "source": "CONTAINS",
+      "target": "File",
+      "label": "HAS_SOURCE File→Variable",
+      "id": "CONTAINS-source-File-6"
+    },
+    {
+      "source": "CONTAINS",
+      "target": "Variable",
+      "label": "HAS_TARGET File→Variable",
+      "id": "CONTAINS-target-Variable-6"
+    },
+    {
+      "source": "CONTAINS",
+      "target": "Class",
+      "label": "HAS_SOURCE Class→Variable",
+      "id": "CONTAINS-source-Class-7"
+    },
+    {
+      "source": "CONTAINS",
+      "target": "Variable",
+      "label": "HAS_TARGET Class→Variable",
+      "id": "CONTAINS-target-Variable-7"
+    },
+    {
+      "source": "CONTAINS",
+      "target": "Directory",
+      "label": "HAS_SOURCE Directory→Directory",
+      "id": "CONTAINS-source-Directory-8"
+    },
+    {
+      "source": "CONTAINS",
+      "target": "Directory",
+      "label": "HAS_TARGET Directory→Directory",
+      "id": "CONTAINS-target-Directory-8"
+    },
+    {
+      "source": "IMPORTS",
+      "target": "File",
+      "label": "HAS_SOURCE File→Import",
+      "id": "IMPORTS-source-File-2"
+    },
+    {
+      "source": "CALLS",
+      "target": "Method",
+      "label": "HAS_SOURCE Method→Function",
+      "id": "CALLS-source-Method-2"
+    },
+    {
+      "source": "CALLS",
+      "target": "Function",
+      "label": "HAS_TARGET Method→Function",
+      "id": "CALLS-target-Function-2"
+    },
+    {
+      "source": "RAISES",
+      "target": "Method",
+      "label": "HAS_SOURCE Method→Exception",
+      "id": "RAISES-source-Method-1"
+    },
+    {
+      "source": "RAISES",
+      "target": "Exception",
+      "label": "HAS_TARGET Method→Exception",
+      "id": "RAISES-target-Exception-1"
+    },
+    {
+      "source": "CATCHES",
+      "target": "Method",
+      "label": "HAS_SOURCE Method→Exception",
+      "id": "CATCHES-source-Method-1"
+    },
+    {
+      "source": "CATCHES",
+      "target": "Exception",
+      "label": "HAS_TARGET Method→Exception",
+      "id": "CATCHES-target-Exception-1"
+    },
+    {
+      "source": "IMPORTS",
+      "target": "File",
+      "label": "HAS_SOURCE File→Function",
+      "id": "IMPORTS-source-File-3"
+    },
+    {
+      "source": "IMPORTS",
+      "target": "Function",
+      "label": "HAS_TARGET File→Function",
+      "id": "IMPORTS-target-Function-3"
+    },
+    {
+      "source": "IMPORTS",
+      "target": "File",
+      "label": "HAS_SOURCE File→Class",
+      "id": "IMPORTS-source-File-4"
+    },
+    {
+      "source": "IMPORTS",
+      "target": "Class",
+      "label": "HAS_TARGET File→Class",
+      "id": "IMPORTS-target-Class-4"
+    },
+    {
+      "source": "DECORATES",
+      "target": "Decorator",
+      "label": "HAS_SOURCE Decorator→Function",
+      "id": "DECORATES-source-Decorator-2"
+    },
+    {
+      "source": "DECORATES",
+      "target": "Function",
+      "label": "HAS_TARGET Decorator→Function",
+      "id": "DECORATES-target-Function-2"
+    },
+    {
+      "source": "CALLS",
+      "target": "Method",
+      "label": "HAS_SOURCE Method→Class",
+      "id": "CALLS-source-Method-3"
+    },
+    {
+      "source": "CALLS",
+      "target": "Class",
+      "label": "HAS_TARGET Function→Class",
+      "id": "CALLS-target-Class-3"
+    },
+    {
+      "source": "CALLS",
+      "target": "Function",
+      "label": "HAS_SOURCE Function→Class",
+      "id": "CALLS-source-Function-3"
+    },
+    {
+      "source": "CALLS",
+      "target": "Class",
+      "label": "HAS_TARGET Function→Class",
+      "id": "CALLS-target-Class-3"
+    },
+    {
+      "id": "IMPORTS-source-File-5",
+      "source": "IMPORTS",
+      "target": "File",
+      "label": "HAS_SOURCE File→Method"
+    },
+    {
+      "id": "IMPORTS-target-Method-5",
+      "source": "IMPORTS",
+      "target": "Method",
+      "label": "HAS_TARGET File→Method"
+    },
+    {
+      "id": "IMPORTS-source-File-6",
+      "source": "IMPORTS",
+      "target": "File",
+      "label": "HAS_SOURCE File→Variable"
+    },
+    {
+      "id": "IMPORTS-target-Variable-6",
+      "source": "IMPORTS",
+      "target": "Variable",
+      "label": "HAS_TARGET File→Variable"
+    },
+    {
+      "id": "IMPORTS-source-File-7",
+      "source": "IMPORTS",
+      "target": "File",
+      "label": "HAS_SOURCE File→Exception"
+    },
+    {
+      "id": "IMPORTS-target-Exception-7",
+      "source": "IMPORTS",
+      "target": "Exception",
+      "label": "HAS_TARGET File→Exception"
+    },
+    {
+      "id": "IMPORTS-source-Function-8",
+      "source": "IMPORTS",
+      "target": "Function",
+      "label": "HAS_SOURCE Function→Dependency"
+    },
+    {
+      "id": "IMPORTS-target-Dependency-8",
+      "source": "IMPORTS",
+      "target": "Dependency",
+      "label": "HAS_TARGET Function→Dependency"
+    },
+    {
+      "id": "IMPORTS-source-Function-9",
+      "source": "IMPORTS",
+      "target": "Function",
+      "label": "HAS_SOURCE Function→Import"
+    },
+    {
+      "id": "IMPORTS-target-Import-9",
+      "source": "IMPORTS",
+      "target": "Import",
+      "label": "HAS_TARGET Function→Import"
+    },
+    {
+      "id": "IMPORTS-source-Function-10",
+      "source": "IMPORTS",
+      "target": "Function",
+      "label": "HAS_SOURCE Function→Class"
+    },
+    {
+      "id": "IMPORTS-target-Class-10",
+      "source": "IMPORTS",
+      "target": "Class",
+      "label": "HAS_TARGET Function→Class"
+    },
+    {
+      "id": "IMPORTS-source-Function-11",
+      "source": "IMPORTS",
+      "target": "Function",
+      "label": "HAS_SOURCE Function→Method"
+    },
+    {
+      "id": "IMPORTS-target-Method-11",
+      "source": "IMPORTS",
+      "target": "Method",
+      "label": "HAS_TARGET Function→Method"
+    },
+    {
+      "id": "IMPORTS-source-Function-12",
+      "source": "IMPORTS",
+      "target": "Function",
+      "label": "HAS_SOURCE Function→Variable"
+    },
+    {
+      "id": "IMPORTS-target-Variable-12",
+      "source": "IMPORTS",
+      "target": "Variable",
+      "label": "HAS_TARGET Function→Variable"
+    },
+    {
+      "id": "IMPORTS-source-Method-13",
+      "source": "IMPORTS",
+      "target": "Method",
+      "label": "HAS_SOURCE Method→Dependency"
+    },
+    {
+      "id": "IMPORTS-target-Dependency-13",
+      "source": "IMPORTS",
+      "target": "Dependency",
+      "label": "HAS_TARGET Method→Dependency"
+    },
+    {
+      "id": "IMPORTS-source-Method-14",
+      "source": "IMPORTS",
+      "target": "Method",
+      "label": "HAS_SOURCE Method→Import"
+    },
+    {
+      "id": "IMPORTS-target-Import-14",
+      "source": "IMPORTS",
+      "target": "Import",
+      "label": "HAS_TARGET Method→Import"
+    },
+    {
+      "id": "IMPORTS-source-Method-15",
+      "source": "IMPORTS",
+      "target": "Method",
+      "label": "HAS_SOURCE Method→Function"
+    },
+    {
+      "id": "IMPORTS-target-Function-15",
+      "source": "IMPORTS",
+      "target": "Function",
+      "label": "HAS_TARGET Method→Function"
+    },
+    {
+      "id": "IMPORTS-source-Method-16",
+      "source": "IMPORTS",
+      "target": "Method",
+      "label": "HAS_SOURCE Method→Class"
+    },
+    {
+      "id": "IMPORTS-target-Class-16",
+      "source": "IMPORTS",
+      "target": "Class",
+      "label": "HAS_TARGET Method→Class"
+    },
+    {
+      "id": "IMPORTS-source-Method-17",
+      "source": "IMPORTS",
+      "target": "Method",
+      "label": "HAS_SOURCE Method→Method"
+    },
+    {
+      "id": "IMPORTS-target-Method-17",
+      "source": "IMPORTS",
+      "target": "Method",
+      "label": "HAS_TARGET Method→Method"
+    },
+    {
+      "id": "IMPORTS-source-Method-18",
+      "source": "IMPORTS",
+      "target": "Method",
+      "label": "HAS_SOURCE Method→Variable"
+    },
+    {
+      "id": "IMPORTS-target-Variable-18",
+      "source": "IMPORTS",
+      "target": "Variable",
+      "label": "HAS_TARGET Method→Variable"
+    },
+    {
+      "id": "CALLS-source-Function-4",
+      "source": "CALLS",
+      "target": "Function",
+      "label": "HAS_SOURCE Function→Method"
+    },
+    {
+      "id": "CALLS-target-Method-4",
+      "source": "CALLS",
+      "target": "Method",
+      "label": "HAS_TARGET Function→Method"
+    },
+    {
+      "id": "CALLS-source-Function-5",
+      "source": "CALLS",
+      "target": "Function",
+      "label": "HAS_SOURCE Function→Exception"
+    },
+    {
+      "id": "CALLS-target-Exception-5",
+      "source": "CALLS",
+      "target": "Exception",
+      "label": "HAS_TARGET Function→Exception"
+    },
+    {
+      "id": "CALLS-source-Function-6",
+      "source": "CALLS",
+      "target": "Function",
+      "label": "HAS_SOURCE Function→Variable"
+    },
+    {
+      "id": "CALLS-target-Variable-6",
+      "source": "CALLS",
+      "target": "Variable",
+      "label": "HAS_TARGET Function→Variable"
+    },
+    {
+      "id": "CALLS-source-Method-7",
+      "source": "CALLS",
+      "target": "Method",
+      "label": "HAS_SOURCE Method→Exception"
+    },
+    {
+      "id": "CALLS-target-Exception-7",
+      "source": "CALLS",
+      "target": "Exception",
+      "label": "HAS_TARGET Method→Exception"
+    },
+    {
+      "id": "CALLS-source-Method-8",
+      "source": "CALLS",
+      "target": "Method",
+      "label": "HAS_SOURCE Method→Variable"
+    },
+    {
+      "id": "CALLS-target-Variable-8",
+      "source": "CALLS",
+      "target": "Variable",
+      "label": "HAS_TARGET Method→Variable"
+    }
+  ],
+  "allValues": {
+    "Directory": {
+      "meta_type": "NodeType",
+      "description": "A directory in the repository",
+      "executor": "code_kg_builder.executors.python.filesystem:FilesystemExecutor"
+    },
+    "File": {
+      "meta_type": "NodeType",
+      "description": "A source code file",
+      "executor": "code_kg_builder.executors.python.filesystem:FilesystemExecutor"
+    },
+    "Class": {
+      "meta_type": "NodeType",
+      "description": "A class definition",
+      "executor": "code_kg_builder.executors.python.ast_structure:AstStructureExecutor"
+    },
+    "Function": {
+      "meta_type": "NodeType",
+      "description": "A standalone function",
+      "executor": "code_kg_builder.executors.python.ast_structure:AstStructureExecutor"
+    },
+    "Method": {
+      "meta_type": "NodeType",
+      "description": "A method belonging to a class",
+      "executor": "code_kg_builder.executors.python.ast_structure:AstStructureExecutor"
+    },
+    "Variable": {
+      "meta_type": "NodeType",
+      "description": "A variable assignment",
+      "executor": "code_kg_builder.executors.python.ast_structure:AstStructureExecutor"
+    },
+    "Decorator": {
+      "meta_type": "NodeType",
+      "description": "A decorator applied to a function/method/class",
+      "executor": "code_kg_builder.executors.python.ast_structure:AstStructureExecutor"
+    },
+    "Import": {
+      "meta_type": "NodeType",
+      "description": "An import statement",
+      "executor": "code_kg_builder.executors.python.ast_structure:AstStructureExecutor"
+    },
+    "Dependency": {
+      "meta_type": "NodeType",
+      "description": "An external package dependency",
+      "executor": "code_kg_builder.executors.python.dependency:DependencyExecutor"
+    },
+    "Exception": {
+      "meta_type": "NodeType",
+      "description": "An exception class",
+      "executor": "code_kg_builder.executors.python.raises_edge:RaisesEdgeExecutor"
+    },
+    "TypeAnnotation": {
+      "meta_type": "NodeType",
+      "description": "A type annotation",
+      "executor": "code_kg_builder.executors.python.has_type_edge:HasTypeEdgeExecutor"
+    },
+    "CONTAINS": {
+      "meta_type": "EdgeType",
+      "description": "Structural containment (Directory→File, File→Class, Class→Method, Method→Variable)",
+      "executor": "code_kg_builder.executors.python.ast_structure:AstStructureExecutor"
+    },
+    "IMPORTS": {
+      "meta_type": "EdgeType",
+      "description": "Import relationship (Function→Function, File→Dependency)",
+      "executor": "code_kg_builder.executors.python.imports_edge:ImportsEdgeExecutor"
+    },
+    "DEPENDS_ON": {
+      "meta_type": "EdgeType",
+      "description": "External dependency (File→Dependency)",
+      "executor": "code_kg_builder.executors.python.dependency:DependencyExecutor"
+    },
+    "DECORATES": {
+      "meta_type": "EdgeType",
+      "description": "Decorator application (Decorator→Method, Decorator→Class)",
+      "executor": "code_kg_builder.executors.python.ast_structure:AstStructureExecutor"
+    },
+    "CALLS": {
+      "meta_type": "EdgeType",
+      "description": "Function/method call (Function→Function, Method→Method)",
+      "executor": "code_kg_builder.executors.python.calls_edge:CallsEdgeExecutor"
+    },
+    "INHERITS": {
+      "meta_type": "EdgeType",
+      "description": "Class inheritance (Class→Class)",
+      "executor": "code_kg_builder.executors.python.inherits_edge:InheritsEdgeExecutor"
+    },
+    "RAISES": {
+      "meta_type": "EdgeType",
+      "description": "Exception raised (Function→Exception)",
+      "executor": "code_kg_builder.executors.python.raises_edge:RaisesEdgeExecutor"
+    },
+    "CATCHES": {
+      "meta_type": "EdgeType",
+      "description": "Exception caught (Function→Exception)",
+      "executor": "code_kg_builder.executors.python.catches_edge:CatchesEdgeExecutor"
+    },
+    "HAS_TYPE": {
+      "meta_type": "EdgeType",
+      "description": "Variable type annotation (Variable→TypeAnnotation)",
+      "executor": "code_kg_builder.executors.python.has_type_edge:HasTypeEdgeExecutor"
+    },
+    "relative_path": {
+      "meta_type": "PropertyType",
+      "dataType": "string",
+      "description": "Path relative to repository root"
+    },
+    "name": {
+      "meta_type": "PropertyType",
+      "dataType": "string",
+      "description": "Element name"
+    },
+    "line_start": {
+      "meta_type": "PropertyType",
+      "dataType": "integer",
+      "description": "Starting line number"
+    },
+    "line_end": {
+      "meta_type": "PropertyType",
+      "dataType": "integer",
+      "description": "Ending line number"
+    },
+    "source_code": {
+      "meta_type": "PropertyType",
+      "dataType": "string",
+      "description": "Source code of the element"
+    },
+    "line_count": {
+      "meta_type": "PropertyType",
+      "dataType": "integer",
+      "description": "Number of lines in the file"
+    },
+    "return_type": {
+      "meta_type": "PropertyType",
+      "dataType": "string",
+      "description": "Return type annotation"
+    },
+    "is_async": {
+      "meta_type": "PropertyType",
+      "dataType": "boolean",
+      "description": "Whether the function is async"
+    },
+    "is_staticmethod": {
+      "meta_type": "PropertyType",
+      "dataType": "boolean",
+      "description": "Whether the method is @staticmethod"
+    },
+    "is_classmethod": {
+      "meta_type": "PropertyType",
+      "dataType": "boolean",
+      "description": "Whether the method is @classmethod"
+    },
+    "value": {
+      "meta_type": "PropertyType",
+      "dataType": "string",
+      "description": "Variable value or expression"
+    },
+    "module_path": {
+      "meta_type": "PropertyType",
+      "dataType": "string",
+      "description": "Import module path"
+    },
+    "imported_name": {
+      "meta_type": "PropertyType",
+      "dataType": "string",
+      "description": "Imported name"
+    },
+    "version": {
+      "meta_type": "PropertyType",
+      "dataType": "string",
+      "description": "Dependency version"
+    },
+    "line_number": {
+      "meta_type": "PropertyType",
+      "dataType": "integer",
+      "description": "Line number (for edges)"
+    },
+    "docstring": {
+      "meta_type": "PropertyType",
+      "dataType": "string",
+      "description": "Element docstring"
+    },
+    "complexity": {
+      "meta_type": "PropertyType",
+      "dataType": "integer",
+      "description": "Cyclomatic complexity"
+    },
+    "Directory-HAS_PROPERTY-relative_path": {
+      "isMandatory": true,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    "File-HAS_PROPERTY-relative_path": {
+      "isMandatory": true,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    "Class-HAS_PROPERTY-name": {
+      "isMandatory": true,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    "Class-HAS_PROPERTY-line_start": {
+      "isMandatory": false,
+      "minCount": 0,
+      "maxCount": 1
+    },
+    "Class-HAS_PROPERTY-line_end": {
+      "isMandatory": false,
+      "minCount": 0,
+      "maxCount": 1
+    },
+    "Class-HAS_PROPERTY-source_code": {
+      "isMandatory": true,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    "Function-HAS_PROPERTY-name": {
+      "isMandatory": true,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    "Function-HAS_PROPERTY-line_start": {
+      "isMandatory": false,
+      "minCount": 0,
+      "maxCount": 1
+    },
+    "Function-HAS_PROPERTY-line_end": {
+      "isMandatory": false,
+      "minCount": 0,
+      "maxCount": 1
+    },
+    "Function-HAS_PROPERTY-source_code": {
+      "isMandatory": true,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    "Method-HAS_PROPERTY-name": {
+      "isMandatory": true,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    "Method-HAS_PROPERTY-line_start": {
+      "isMandatory": false,
+      "minCount": 0,
+      "maxCount": 1
+    },
+    "Method-HAS_PROPERTY-line_end": {
+      "isMandatory": false,
+      "minCount": 0,
+      "maxCount": 1
+    },
+    "Method-HAS_PROPERTY-source_code": {
+      "isMandatory": true,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    "Variable-HAS_PROPERTY-name": {
+      "isMandatory": true,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    "Variable-HAS_PROPERTY-line_start": {
+      "isMandatory": false,
+      "minCount": 0,
+      "maxCount": 1
+    },
+    "Decorator-HAS_PROPERTY-name": {
+      "isMandatory": true,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    "Decorator-HAS_PROPERTY-line_start": {
+      "isMandatory": false,
+      "minCount": 0,
+      "maxCount": 1
+    },
+    "Dependency-HAS_PROPERTY-name": {
+      "isMandatory": true,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    "Exception-HAS_PROPERTY-name": {
+      "isMandatory": true,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    "TypeAnnotation-HAS_PROPERTY-name": {
+      "isMandatory": true,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    "IMPORTS-target-Import-2": {},
+    "Import-HAS_PROPERTY-line_number": {
+      "isMandatory": false,
+      "minCount": 0,
+      "maxCount": 1
+    },
+    "File-HAS_PROPERTY-line_count": {
+      "isMandatory": false,
+      "minCount": 0,
+      "maxCount": 1
+    },
+    "Class-HAS_PROPERTY-docstring": {
+      "isMandatory": false,
+      "minCount": 0,
+      "maxCount": 1
+    },
+    "Class-HAS_PROPERTY-complexity": {
+      "isMandatory": false,
+      "minCount": 0,
+      "maxCount": 1
+    },
+    "Function-HAS_PROPERTY-return_type": {
+      "isMandatory": false,
+      "minCount": 0,
+      "maxCount": 1
+    },
+    "Function-HAS_PROPERTY-is_async": {
+      "isMandatory": false,
+      "minCount": 0,
+      "maxCount": 1
+    },
+    "Function-HAS_PROPERTY-docstring": {
+      "isMandatory": false,
+      "minCount": 0,
+      "maxCount": 1
+    },
+    "Function-HAS_PROPERTY-complexity": {
+      "isMandatory": false,
+      "minCount": 0,
+      "maxCount": 1
+    },
+    "Method-HAS_PROPERTY-return_type": {
+      "isMandatory": false,
+      "minCount": 0,
+      "maxCount": 1
+    },
+    "Method-HAS_PROPERTY-is_async": {
+      "isMandatory": false,
+      "minCount": 0,
+      "maxCount": 1
+    },
+    "Method-HAS_PROPERTY-is_staticmethod": {
+      "isMandatory": false,
+      "minCount": 0,
+      "maxCount": 1
+    },
+    "Method-HAS_PROPERTY-is_classmethod": {
+      "isMandatory": false,
+      "minCount": 0,
+      "maxCount": 1
+    },
+    "Method-HAS_PROPERTY-docstring": {
+      "isMandatory": false,
+      "minCount": 0,
+      "maxCount": 1
+    },
+    "Method-HAS_PROPERTY-complexity": {
+      "isMandatory": false,
+      "minCount": 0,
+      "maxCount": 1
+    },
+    "Variable-HAS_PROPERTY-value": {
+      "isMandatory": false,
+      "minCount": 0,
+      "maxCount": 1
+    },
+    "Import-HAS_PROPERTY-module_path": {
+      "isMandatory": false,
+      "minCount": 0,
+      "maxCount": 1
+    },
+    "Import-HAS_PROPERTY-imported_name": {
+      "isMandatory": false,
+      "minCount": 0,
+      "maxCount": 1
+    },
+    "Dependency-HAS_PROPERTY-version": {
+      "isMandatory": false,
+      "minCount": 0,
+      "maxCount": 1
+    },
+    "CONTAINS-source-File-4": {},
+    "CONTAINS-target-Function-4": {},
+    "CONTAINS-source-File-5": {},
+    "CONTAINS-target-Import-5": {},
+    "CONTAINS-source-File-6": {},
+    "CONTAINS-target-Variable-6": {},
+    "CONTAINS-source-Class-7": {},
+    "CONTAINS-target-Variable-7": {},
+    "CONTAINS-source-Directory-8": {},
+    "CONTAINS-target-Directory-8": {},
+    "IMPORTS-source-File-2": {},
+    "CALLS-source-Method-2": {},
+    "CALLS-target-Function-2": {},
+    "RAISES-source-Method-1": {},
+    "RAISES-target-Exception-1": {},
+    "CATCHES-source-Method-1": {},
+    "CATCHES-target-Exception-1": {},
+    "IMPORTS-source-File-3": {},
+    "IMPORTS-target-Function-3": {},
+    "IMPORTS-source-File-4": {},
+    "IMPORTS-target-Class-4": {},
+    "DECORATES-source-Decorator-2": {},
+    "DECORATES-target-Function-2": {},
+    "CALLS-source-Method-3": {},
+    "CALLS-target-Class-3": {},
+    "CALLS-source-Function-3": {}
+  }
+}

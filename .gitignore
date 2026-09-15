@@ -216,3 +216,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# artifact data files are added separately (see artifacts/README.md)
+artifacts/**
+!artifacts/**/
+!artifacts/README.md
+!artifacts/**/.gitkeep

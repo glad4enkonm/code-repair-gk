@@ -1,0 +1,23 @@
+{
+    "_comment": "Gemma-4-26B-A4B variant of the primary config: chat model served by the combined gemma+nomic llama-server on 8081 (docker-compose.gemma26b-embed.yml). output_dir separates ALL kg.run progress/datasets into outputs/gemma26b so the qwen artifacts stay untouched; graph/embedding/repo caches are chat-model-free and stay shared. max_context_tokens lowered 128000->120000: token estimates are not gemma-tokenizer-aware and the served context is 131072, so this keeps a safe margin against tokenizer drift.",
+    "api_base": "http://localhost:8081/v1",
+    "model": "gemma4-26b-A4B-Q8_0",
+    "api_key": "any",
+    "temperature": 0.0,
+    "max_tokens": 3072,
+    "_comment_max_tokens": "Exploration budget raised 1024->3072 for gemma thinking-ON mode: reasoning chains measured up to ~880 tokens before the tool-call JSON, so 1024 risks truncation-with-empty-content. Thinking must stay ON for exploration: with enable_thinking=false gemma emits its native <|tool_call> wrappers and string-form function keys that extract_function_calls cannot parse (0 calls, instant stop — verified 2026-09-11).",
+    "max_rounds": 20,
+    "max_tool_calls": 50,
+    "repair_max_rounds": 20,
+    "repair_max_tool_calls": 50,
+    "meta_schema_dir": "swe_bench_kg",
+    "graph_cache_dir": "outputs/kg_graphs",
+    "repo_cache_dir": "outputs/kg_repos",
+    "max_context_tokens": 120000,
+    "dataset_path": "data/swe-bench_lite",
+    "split": "dev",
+    "output_dir": "outputs/gemma26b",
+    "prompt_style": "style-3",
+    "embedding_api_base": "http://localhost:8081/v1",
+    "embedding_cache_dir": "outputs/kg_embed_cache"
+}

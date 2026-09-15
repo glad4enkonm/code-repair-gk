@@ -1,0 +1,397 @@
+{
+  "nodes": [
+    {
+      "id": "NodeType",
+      "label": "NodeType",
+      "x": 217.88535301323972,
+      "y": -52.275205912582294
+    },
+    {
+      "id": "EdgeType",
+      "label": "EdgeType",
+      "x": -18.93688673129151,
+      "y": 1022.9133670621578
+    },
+    {
+      "id": "PropertyType",
+      "label": "PropertyType",
+      "x": 1018.3564178629898,
+      "y": 489.54173020231804
+    },
+    {
+      "id": "HAS_SOURCE",
+      "label": "HAS_SOURCE",
+      "x": -386.8608441733612,
+      "y": 85.95750612355533
+    },
+    {
+      "id": "HAS_TARGET",
+      "label": "HAS_TARGET",
+      "x": -113.21702561755546,
+      "y": 352.59271023425816
+    },
+    {
+      "id": "HAS_PROPERTY",
+      "label": "HAS_PROPERTY",
+      "x": 636.39292342296,
+      "y": 424.4717724682064
+    },
+    {
+      "id": "description",
+      "label": "description",
+      "x": 566.8223055080041,
+      "y": 136.69350344546504
+    },
+    {
+      "id": "dataType",
+      "label": "dataType",
+      "x": 1219.8202746607924,
+      "y": 679.1930940377465
+    },
+    {
+      "id": "isMandatory",
+      "label": "isMandatory",
+      "x": 806.4798903311563,
+      "y": -26.101699671262594
+    },
+    {
+      "id": "validationRegex",
+      "label": "validationRegex",
+      "x": 1166.7780734206333,
+      "y": 235.8459093464779
+    },
+    {
+      "id": "allowedValues",
+      "label": "allowedValues",
+      "x": 914.9774396078784,
+      "y": 749.1358816711322
+    },
+    {
+      "id": "minCount",
+      "label": "minCount",
+      "x": 626.1951729145637,
+      "y": 834.8155507593714
+    },
+    {
+      "id": "maxCount",
+      "label": "maxCount",
+      "x": 466.71134602795917,
+      "y": 679.1381880166884
+    },
+    {
+      "id": "source",
+      "label": "source",
+      "x": -241.14858365170232,
+      "y": 193.32596552476184
+    },
+    {
+      "id": "imported_from",
+      "label": "imported_from",
+      "x": 90.5687659694222,
+      "y": 262.3207677072559
+    },
+    {
+      "id": "confidence",
+      "label": "confidence",
+      "x": 194.39419323018865,
+      "y": 465.1236710921607
+    },
+    {
+      "id": "last_validated_at",
+      "label": "last_validated_at",
+      "x": 369.30517425473613,
+      "y": 320.86181198331116
+    },
+    {
+      "id": "executor",
+      "label": "executor",
+      "x": 1600,
+      "y": -60
+    }
+  ],
+  "edges": [
+    {
+      "source": "HAS_SOURCE",
+      "target": "EdgeType",
+      "label": "HAS_SOURCE",
+      "id": "HAS_SOURCE-source-EdgeType"
+    },
+    {
+      "source": "HAS_SOURCE",
+      "target": "NodeType",
+      "label": "HAS_TARGET",
+      "id": "HAS_SOURCE-target-NodeType"
+    },
+    {
+      "source": "HAS_TARGET",
+      "target": "EdgeType",
+      "label": "HAS_SOURCE",
+      "id": "HAS_TARGET-source-EdgeType"
+    },
+    {
+      "source": "HAS_TARGET",
+      "target": "NodeType",
+      "label": "HAS_TARGET",
+      "id": "HAS_TARGET-target-NodeType"
+    },
+    {
+      "source": "HAS_PROPERTY",
+      "target": "NodeType",
+      "label": "HAS_SOURCE",
+      "id": "HAS_PROPERTY-source-NodeType"
+    },
+    {
+      "source": "HAS_PROPERTY",
+      "target": "PropertyType",
+      "label": "HAS_TARGET",
+      "id": "HAS_PROPERTY-target-PropertyType"
+    },
+    {
+      "source": "NodeType",
+      "target": "description",
+      "label": "HAS_PROPERTY",
+      "id": "NodeType-HAS_PROPERTY-description"
+    },
+    {
+      "source": "EdgeType",
+      "target": "description",
+      "label": "HAS_PROPERTY",
+      "id": "EdgeType-HAS_PROPERTY-description"
+    },
+    {
+      "source": "PropertyType",
+      "target": "description",
+      "label": "HAS_PROPERTY",
+      "id": "PropertyType-HAS_PROPERTY-description"
+    },
+    {
+      "source": "PropertyType",
+      "target": "dataType",
+      "label": "HAS_PROPERTY",
+      "id": "PropertyType-HAS_PROPERTY-dataType"
+    },
+    {
+      "source": "PropertyType",
+      "target": "isMandatory",
+      "label": "HAS_PROPERTY",
+      "id": "PropertyType-HAS_PROPERTY-isMandatory"
+    },
+    {
+      "source": "PropertyType",
+      "target": "validationRegex",
+      "label": "HAS_PROPERTY",
+      "id": "PropertyType-HAS_PROPERTY-validationRegex"
+    },
+    {
+      "source": "PropertyType",
+      "target": "allowedValues",
+      "label": "HAS_PROPERTY",
+      "id": "PropertyType-HAS_PROPERTY-allowedValues"
+    },
+    {
+      "source": "HAS_PROPERTY",
+      "target": "isMandatory",
+      "label": "HAS_PROPERTY",
+      "id": "HAS_PROPERTY-HAS_PROPERTY-isMandatory"
+    },
+    {
+      "source": "HAS_PROPERTY",
+      "target": "minCount",
+      "label": "HAS_PROPERTY",
+      "id": "HAS_PROPERTY-HAS_PROPERTY-minCount"
+    },
+    {
+      "source": "HAS_PROPERTY",
+      "target": "maxCount",
+      "label": "HAS_PROPERTY",
+      "id": "HAS_PROPERTY-HAS_PROPERTY-maxCount"
+    },
+    {
+      "source": "EdgeType",
+      "target": "minCount",
+      "label": "HAS_PROPERTY",
+      "id": "EdgeType-HAS_PROPERTY-minCount"
+    },
+    {
+      "source": "EdgeType",
+      "target": "maxCount",
+      "label": "HAS_PROPERTY",
+      "id": "EdgeType-HAS_PROPERTY-maxCount"
+    },
+    {
+      "source": "NodeType",
+      "target": "source",
+      "label": "HAS_PROPERTY",
+      "id": "NodeType-HAS_PROPERTY-source"
+    },
+    {
+      "source": "NodeType",
+      "target": "imported_from",
+      "label": "HAS_PROPERTY",
+      "id": "NodeType-HAS_PROPERTY-imported_from"
+    },
+    {
+      "source": "NodeType",
+      "target": "confidence",
+      "label": "HAS_PROPERTY",
+      "id": "NodeType-HAS_PROPERTY-confidence"
+    },
+    {
+      "source": "NodeType",
+      "target": "last_validated_at",
+      "label": "HAS_PROPERTY",
+      "id": "NodeType-HAS_PROPERTY-last_validated_at"
+    },
+    {
+      "source": "EdgeType",
+      "target": "source",
+      "label": "HAS_PROPERTY",
+      "id": "EdgeType-HAS_PROPERTY-source"
+    },
+    {
+      "source": "EdgeType",
+      "target": "imported_from",
+      "label": "HAS_PROPERTY",
+      "id": "EdgeType-HAS_PROPERTY-imported_from"
+    },
+    {
+      "source": "EdgeType",
+      "target": "confidence",
+      "label": "HAS_PROPERTY",
+      "id": "EdgeType-HAS_PROPERTY-confidence"
+    },
+    {
+      "source": "EdgeType",
+      "target": "last_validated_at",
+      "label": "HAS_PROPERTY",
+      "id": "EdgeType-HAS_PROPERTY-last_validated_at"
+    },
+    {
+      "source": "NodeType",
+      "target": "executor",
+      "label": "HAS_PROPERTY",
+      "id": "NodeType-HAS_PROPERTY-executor"
+    },
+    {
+      "source": "EdgeType",
+      "target": "executor",
+      "label": "HAS_PROPERTY",
+      "id": "EdgeType-HAS_PROPERTY-executor"
+    }
+  ],
+  "allValues": {
+    "NodeType": {
+      "description": "A concept representing a valid 'label' for a node in the Meta-Graph (e.g., 'Publication', 'Author').",
+      "origin_type": "MetaConcept"
+    },
+    "EdgeType": {
+      "description": "A concept representing a valid 'label' for an edge in the Meta-Graph (e.g., 'AUTHORED_BY').",
+      "origin_type": "MetaConcept"
+    },
+    "PropertyType": {
+      "description": "A concept representing a valid property key in the Meta-Graph (e.g., 'title', 'submission_date').",
+      "origin_type": "MetaConcept"
+    },
+    "HAS_SOURCE": {
+      "description": "A meta-relationship type defining the allowed source concept for an EdgeType.",
+      "origin_type": "MetaConcept"
+    },
+    "HAS_TARGET": {
+      "description": "A meta-relationship defining the allowed target concept for an EdgeType in the Meta-Graph.",
+      "origin_type": "MetaConcept"
+    },
+    "HAS_PROPERTY": {
+      "description": "A meta-relationship defining that a NodeType or EdgeType is allowed to have a specific PropertyType. Can itself have properties for constraints.",
+      "origin_type": "MetaConcept"
+    },
+    "dataType": {
+      "description": "A property for a 'PropertyType' node, specifying the required data type (e.g., 'string', 'integer').",
+      "allowedValues": "string,integer,date,url,boolean,float",
+      "dataType": "string",
+      "origin_type": "MetaProperty"
+    },
+    "isMandatory": {
+      "description": "A property for HAS_PROPERTY edges, specifying if the property must exist in the association context.",
+      "dataType": "boolean",
+      "origin_type": "MetaProperty"
+    },
+    "description": {
+      "description": "A human-readable explanation of an element.",
+      "dataType": "string",
+      "origin_type": "MetaProperty"
+    },
+    "validationRegex": {
+      "description": "A property for a 'PropertyType' node, specifying a regex for value validation.",
+      "dataType": "string",
+      "origin_type": "MetaProperty"
+    },
+    "allowedValues": {
+      "description": "A property for a 'PropertyType' node, providing a list of allowed enum values.",
+      "dataType": "string",
+      "origin_type": "MetaProperty"
+    },
+    "minCount": {
+      "description": "Minimum number of occurrences for a property or edge in an association.",
+      "dataType": "integer",
+      "origin_type": "MetaProperty"
+    },
+    "maxCount": {
+      "description": "Maximum number of occurrences for a property or edge in an association. Null means unlimited.",
+      "dataType": "integer",
+      "origin_type": "MetaProperty"
+    },
+    "source": {
+      "description": "Provenance information indicating the origin or source of the data.",
+      "dataType": "string",
+      "origin_type": "MetaProperty"
+    },
+    "imported_from": {
+      "description": "System or file from which the data was imported.",
+      "dataType": "string",
+      "origin_type": "MetaProperty"
+    },
+    "confidence": {
+      "description": "Confidence level or quality score for the data (0.0 to 1.0).",
+      "dataType": "float",
+      "origin_type": "MetaProperty"
+    },
+    "last_validated_at": {
+      "description": "Timestamp of the last validation of this data.",
+      "dataType": "date",
+      "origin_type": "MetaProperty"
+    },
+    "HAS_SOURCE-source-EdgeType": {},
+    "HAS_SOURCE-target-NodeType": {},
+    "HAS_TARGET-source-EdgeType": {},
+    "HAS_TARGET-target-NodeType": {},
+    "HAS_PROPERTY-source-NodeType": {},
+    "HAS_PROPERTY-target-PropertyType": {},
+    "NodeType-HAS_PROPERTY-description": {},
+    "EdgeType-HAS_PROPERTY-description": {},
+    "PropertyType-HAS_PROPERTY-description": {},
+    "PropertyType-HAS_PROPERTY-dataType": {},
+    "PropertyType-HAS_PROPERTY-isMandatory": {},
+    "PropertyType-HAS_PROPERTY-validationRegex": {},
+    "PropertyType-HAS_PROPERTY-allowedValues": {},
+    "HAS_PROPERTY-HAS_PROPERTY-isMandatory": {},
+    "HAS_PROPERTY-HAS_PROPERTY-minCount": {},
+    "HAS_PROPERTY-HAS_PROPERTY-maxCount": {},
+    "EdgeType-HAS_PROPERTY-minCount": {},
+    "EdgeType-HAS_PROPERTY-maxCount": {},
+    "NodeType-HAS_PROPERTY-source": {},
+    "NodeType-HAS_PROPERTY-imported_from": {},
+    "NodeType-HAS_PROPERTY-confidence": {},
+    "NodeType-HAS_PROPERTY-last_validated_at": {},
+    "EdgeType-HAS_PROPERTY-source": {},
+    "EdgeType-HAS_PROPERTY-imported_from": {},
+    "EdgeType-HAS_PROPERTY-confidence": {},
+    "EdgeType-HAS_PROPERTY-last_validated_at": {},
+    "executor": {
+      "description": "Python module:Class path for the builder executor. Enables auto-loading and provenance tracking.",
+      "dataType": "string",
+      "origin_type": "MetaProperty"
+    },
+    "NodeType-HAS_PROPERTY-executor": {},
+    "EdgeType-HAS_PROPERTY-executor": {}
+  }
+}

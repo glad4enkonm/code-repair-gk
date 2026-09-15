@@ -1,0 +1,73 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "code-repair-gk"
+version = "1.0.0"
+description = "Repository knowledge graph construction and graph-guided bug localization and repair for SWE-bench Lite"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.11"
+dependencies = [
+    "swebench==4.1.0",
+    "sentencepiece",
+    "openai",
+    "datasets",
+    "tqdm",
+    "gitpython",
+    "chromadb>=1.0",
+    "transformers",
+    "click",
+    "tiktoken",
+    # swebench 4.1.0 imports the legacy HUMAN_PROMPT/AI_PROMPT constants
+    # that anthropic removed in 0.31.0
+    "anthropic<0.31",
+    "z3-solver",
+]
+
+[project.optional-dependencies]
+agentless = [
+    "agentless @ git+https://github.com/glad4enkonm/Agentless.git@qwen",
+]
+dev = [
+    "pytest>=7.0.0",
+    "pytest-cov>=4.0.0",
+    "black>=22.0.0",
+    "flake8>=5.0.0",
+    "mypy>=1.0.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-dir]
+"" = "src"
+
+[tool.setuptools.package-data]
+kg = ["py.typed"]
+tool = ["py.typed", "README.md"]
+code_kg_builder = ["py.typed"]
+verification = ["py.typed"]
+
+[tool.black]
+target-version = ["py311"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["*_test.py"]
+markers = [
+    "slow: marks tests as slow (deselect with '-m \"not slow\"')",
+]
+
+[[tool.mypy.overrides]]
+# Third-party packages without stubs or py.typed markers
+module = [
+    "datasets",
+    "datasets.*",
+    "tqdm",
+    "tqdm.*",
+    "swebench",
+    "swebench.*",
+]
+ignore_missing_imports = true
